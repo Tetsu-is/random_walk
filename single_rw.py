@@ -56,12 +56,6 @@ def main():
 
     w = Walker(g, 1)
 
-    #walker advance with specified number of steps
-    # for i in range(10):
-    #     g.advance(w)
-    #     #print time=i and current node
-    #     print("Time: ", i, "Current Node: ", w.current)
-
     #walker advance until walker reaches node 6
     time_count = 0
     while(g.find_node(6).visited == False):
